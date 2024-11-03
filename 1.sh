@@ -1,4 +1,5 @@
-!/bin/bash
+#!/bin/bash
 # A simple variable example
-var=$((3+9))
-echo $var
+greeting=Hello
+name=User
+echo $greeting $name
