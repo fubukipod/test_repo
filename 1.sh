@@ -1,5 +1,10 @@
 #!/bin/bash
-# A simple variable example
-greeting=Hello
-name=User
-echo $greeting $name
+
+echo "Enter a numner"
+read a
+
+echo "Enter a numner"
+read b
+
+var=$((a+b))
+echo $var
